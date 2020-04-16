@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28eefa56-7916-446d-a727-a2e06c4a22ac" name="Default Changelist" comment="" />
+    <list default="true" id="28eefa56-7916-446d-a727-a2e06c4a22ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FitnessTracker/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeCamp_Java/FitnessTracker/CalculatorImperial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeCamp_Java/FitnessTracker/CalculatorMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeCamp_Java/FitnessTracker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeCamp_Java/FitnessTracker/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeCamp_Java/FitnessTracker/UserData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeCamp_Java/FitnessTracker/UserData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FitnessTracker/CalculatorImperial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FitnessTracker/CalculatorMetric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FitnessTracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FitnessTracker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FitnessTracker/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FitnessTracker/UserData.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +27,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aYq5N9DigdQLlnf1jUAX1hpeYs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -126,11 +143,22 @@
       <option name="presentableId" value="Default" />
       <updated>1586922690149</updated>
       <workItem from="1586922695957" duration="3304000" />
-      <workItem from="1586930354435" duration="13148000" />
+      <workItem from="1586930354435" duration="19971000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

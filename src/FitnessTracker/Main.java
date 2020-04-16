@@ -1,18 +1,17 @@
 package FitnessTracker;
 
 public class Main {
-
     public static void main(String[] args) {
+        System.out.println("---------------------------------------");
+        UserData myobject = new UserData();
 
-        UserData myObject = new UserData();
-        myObject.setDuration(30);
-        myObject.setWeight(60);
+        myobject.setDuration(30);
+        myobject.setWeight(60);
 
-        int a = myObject.getDuration();
-        float b = myObject.getWeight();
-        System.out.println("Your Weight: "+b + "\nActive Duration: "+a);
-
-        float y = CalculatorMetric.CalFunction();
-        System.out.println("Daily Water Intake: "+y);
+        float ounces = Calculator.CalFunction(myobject);
+        float liters = ounces * 0.0295735f;
+        System.out.println("Your Daily Water Intake : "+ String.format("%.2f",ounces)+ " Ounces");
+        System.out.println("Your Daily Water Intake : "+ String.format("%.2f",liters)+ " liters");
+        System.out.println("---------------------------------------");
     }
 }

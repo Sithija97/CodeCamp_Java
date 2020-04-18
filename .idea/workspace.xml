@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28eefa56-7916-446d-a727-a2e06c4a22ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Revind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Selection.java" afterDir="false" />
     </list>
@@ -151,7 +150,7 @@
       <workItem from="1586922695957" duration="3304000" />
       <workItem from="1586930354435" duration="20406000" />
       <workItem from="1587105583892" duration="3463000" />
-      <workItem from="1587179288691" duration="5040000" />
+      <workItem from="1587179288691" duration="6915000" />
     </task>
     <servers />
   </component>

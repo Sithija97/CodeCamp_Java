@@ -4,18 +4,20 @@ import java.util.Arrays;
 
 public class Selection {
     public static void SelectionSort(int data[]) {
-        for(int i=0; i<data.length-1; i++){
-            int MinIndex = i;
-            for (int j=i+1;j<data.length;j++){
-                if (data[j] < data[MinIndex]) {
-                    MinIndex = i;
+
+        for (int i=0;i<data.length-1;i++){
+            int min = i; //initialzie the min as value on the 0th index
+            for (int j=i+1; j<data.length;j++){
+                if (data[j]<data[min]){
+                    min = j;
                 }
-            }//finding the min
-            // put min at the correct position
+            }
             int temp = data[i];
-            data[i] = data[MinIndex];
-            data[MinIndex] = temp;
-        }//go through the array
+            data[i] = data[min];
+            data[min] = temp;
+        }
+
+
         System.out.println("Sorted Array in Ascending Order: ");
         System.out.println(Arrays.toString(data));
     }

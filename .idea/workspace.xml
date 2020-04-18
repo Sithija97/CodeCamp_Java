@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28eefa56-7916-446d-a727-a2e06c4a22ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/BubbleSort_CTD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/MinMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeCamp_Java/Algorithms/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeCamp_Java/Algorithms/BubbleSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BubbleSort_CTD.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.MinMax">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.BubbleSort" />
       <module name="CodeCamp_Java" />
@@ -62,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindeRepeater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.FindeRepeater" />
+    <configuration name="BubbleSort_CTD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.BubbleSort_CTD" />
       <module name="CodeCamp_Java" />
       <extension name="coverage">
         <pattern>
@@ -101,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.MinMax" />
+      <module name="CodeCamp_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StoreStrCharNative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.StoreStrCharNative" />
       <module name="CodeCamp_Java" />
@@ -116,10 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.BubbleSort_CTD" />
         <item itemvalue="Application.StoreStrCharNative" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FindeRepeater" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +152,8 @@
       <updated>1586922690149</updated>
       <workItem from="1586922695957" duration="3304000" />
       <workItem from="1586930354435" duration="20406000" />
-      <workItem from="1587105583892" duration="2868000" />
+      <workItem from="1587105583892" duration="3463000" />
+      <workItem from="1587179288691" duration="2314000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package HackDown2020;
+package ProblemSolving;
 
 import java.util.Scanner;
 

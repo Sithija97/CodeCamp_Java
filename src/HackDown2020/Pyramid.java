@@ -1,8 +1,8 @@
-package Algorithms;
+package HackDown2020;
 
 import java.util.Scanner;
 
-public class Revind {
+public class Pyramid {
     public static void main(String[] args) {
         int i, j;
         int n ;

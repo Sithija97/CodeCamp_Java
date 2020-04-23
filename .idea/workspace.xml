@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28eefa56-7916-446d-a727-a2e06c4a22ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HackDown2020/COVID19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackDown2020/Pyramid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeCamp_Java/Algorithms/Revind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeCamp_Java/Algorithms/Revind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeCamp_Java/META-INF/CodeCamp_Java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Revind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Revind.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +27,15 @@
   </component>
   <component name="ProjectId" id="1aYq5N9DigdQLlnf1jUAX1hpeYs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,19 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Selection">
+  <component name="RunManager" selected="Application.COVID19">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.BubbleSort" />
       <module name="CodeCamp_Java" />
@@ -62,8 +58,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort_CTD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.BubbleSort_CTD" />
+    <configuration name="COVID19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackDown2020.COVID19" />
+      <module name="CodeCamp_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackDown2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.MinMax" />
       <module name="CodeCamp_Java" />
       <extension name="coverage">
         <pattern>
@@ -75,21 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FitnessTracker.Main" />
-      <module name="CodeCamp_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FitnessTracker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.MinMax" />
+    <configuration name="Revind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Revind" />
       <module name="CodeCamp_Java" />
       <extension name="coverage">
         <pattern>
@@ -114,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreStrCharNative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.StoreStrCharNative" />
-      <module name="CodeCamp_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.COVID19" />
+        <item itemvalue="Application.Revind" />
         <item itemvalue="Application.Selection" />
         <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.BubbleSort_CTD" />
-        <item itemvalue="Application.StoreStrCharNative" />
       </list>
     </recent_temporary>
   </component>
@@ -150,24 +133,45 @@
       <workItem from="1586922695957" duration="3304000" />
       <workItem from="1586930354435" duration="20406000" />
       <workItem from="1587105583892" duration="3463000" />
-      <workItem from="1587179288691" duration="6915000" />
+      <workItem from="1587179288691" duration="8404000" />
+      <workItem from="1587446140078" duration="608000" />
+      <workItem from="1587557572700" duration="29000" />
+      <workItem from="1587584559237" duration="515000" />
+      <workItem from="1587614693439" duration="2943000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1587620699998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587620699998" />
+    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1587620699998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587620699998" />
+    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1587620699998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587620699998" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1587620699998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587620699998" />
   </component>
 </project>

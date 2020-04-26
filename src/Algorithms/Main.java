@@ -10,4 +10,7 @@ public class Main {
     public static void main(String[] args) {
         FindeRepeater.RepeatCharFinder();
     }
+
+    public void printPascal(int i) {
+    }
 }

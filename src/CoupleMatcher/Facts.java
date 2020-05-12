@@ -15,26 +15,40 @@ public class Facts {
     }
 
     String food[] = {"rice n curry", "milk-rice", "chineese", "italian", "indian"};
-    int length = food.length;
+    String country[] = {"Sri Lanka", "Maldives", "USA", "UK", "Aussie", "New-zeland"};
 
     public void Data() {
 
-        System.out.println("length:" + length);
-
         //display foods
         System.out.println("select your favourite food:");
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < food.length; i++) {
             System.out.println(i + 1 + ":" + food[i]);
+        }
+
+        //display country
+        System.out.println("select your favourite country:");
+        for (int i = 0; i < country.length; i++) {
+            System.out.println(i + 1 + ":" + country[i]);
         }
 
 
     }
 
-    public String Selection() {
+    public String SelectionFood() {
         //getting input
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < food.length; i++) {
             if (this.userinput == i) {
                 return food[i-1];
+            };
+        }
+        return "not matched";
+    }
+
+    public String SelectionCountry() {
+        //getting input
+        for (int i = 0; i < country.length; i++) {
+            if (this.userinput == i) {
+                return country[i-1];
             };
         }
         return "not matched";

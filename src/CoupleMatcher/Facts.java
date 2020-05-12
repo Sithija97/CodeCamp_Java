@@ -37,7 +37,7 @@ public class Facts {
                 return food[i-1];
             };
         }
-        return null;
+        return "not matched";
     }
 
 }

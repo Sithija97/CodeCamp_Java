@@ -3,15 +3,19 @@ package CoupleMatcher;
 import java.util.Scanner;
 
 public class GirlData {
-    //user input
-    Scanner input = new Scanner(System.in);
-    int userinput = input.nextInt();
 
-    public static void GirlInpt() {
+
+    public static String GirlInpt() {
+        //user input
+        Scanner input = new Scanner(System.in);
+        System.out.println("girl what's your favourite food?");
+        int userinput = input.nextInt();
+
         Facts facts = new Facts();
-        facts.setUserinput(2);
+        facts.setUserinput(userinput);
         String x = facts.Selection();
         System.out.printf("girls's selected food is:" + x+"\n");
+        return x;
 
     }
 }

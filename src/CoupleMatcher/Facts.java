@@ -16,6 +16,7 @@ public class Facts {
 
     String food[] = {"rice n curry", "milk-rice", "chineese", "italian", "indian"};
     String country[] = {"Sri Lanka", "Maldives", "USA", "UK", "Aussie", "New-zeland"};
+    String hobby[] = {"travelling", "drawing","photography","movies", "music"};
 
     public void Data() {
 
@@ -49,6 +50,16 @@ public class Facts {
         for (int i = 0; i < country.length; i++) {
             if (this.userinput == i) {
                 return country[i-1];
+            };
+        }
+        return "not matched";
+    }
+
+    public String SelectionHobby() {
+        //getting input
+        for (int i = 0; i < hobby.length; i++) {
+            if (this.userinput == i) {
+                return hobby[i-1];
             };
         }
         return "not matched";

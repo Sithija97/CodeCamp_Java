@@ -27,4 +27,14 @@ public class BoyData {
         return y;
     }
 
+    public static String BoyInptHobby() {
+        //input
+        System.out.println("boy what's your favourite hobby?");
+        int userinput = input.nextInt();
+        facts.setUserinput(userinput);
+        String y = facts.SelectionHobby();
+        System.out.printf("boy's selected hobby is:"+y+"\n");
+        return y;
+    }
+
 }

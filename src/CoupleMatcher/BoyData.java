@@ -37,4 +37,21 @@ public class BoyData {
         return y;
     }
 
+    public static boolean SelectionLiving() {
+        //input
+        System.out.println("");
+        System.out.println("boys liveing style? (1 for expensive 0 for normal) ");
+        int userinput = input.nextInt();
+        facts.setUserinput(userinput);
+        boolean z = facts.SelectionLiving();
+        if (z==true){
+            System.out.printf("boy likes an expensive living style\n");
+            return true;
+        }else {
+            System.out.printf("boy likes a normal living style\n");
+            return false;
+        }
+
+    }
+
 }

@@ -17,6 +17,7 @@ public class Facts {
     String food[] = {"rice n curry", "milk-rice", "chineese", "italian", "indian"};
     String country[] = {"Sri Lanka", "Maldives", "USA", "UK", "Aussie", "New-zeland"};
     String hobby[] = {"travelling", "drawing","photography","movies", "music"};
+    boolean living;
 
     public void Data() {
 
@@ -30,6 +31,12 @@ public class Facts {
         System.out.println("select your favourite country:");
         for (int i = 0; i < country.length; i++) {
             System.out.println(i + 1 + ":" + country[i]);
+        }
+
+        //display hobby
+        System.out.println("select your favourite hobby:");
+        for (int i = 0; i < hobby.length; i++) {
+            System.out.println(i + 1 + ":" + hobby[i]);
         }
 
 
@@ -63,6 +70,14 @@ public class Facts {
             };
         }
         return "not matched";
+    }
+
+    public boolean SelectionLiving() {
+        //getting input
+        if(userinput==1){
+            return true;
+        }
+        return false;
     }
 
 }

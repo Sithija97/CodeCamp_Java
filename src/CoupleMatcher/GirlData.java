@@ -36,4 +36,20 @@ public class GirlData {
         System.out.printf("girl's selected hobby is:"+y+"\n");
         return y;
     }
+    public static boolean SelectionLiving() {
+        //input
+        System.out.println("");
+        System.out.println("girls liveing style? (1 for expensive 0 for normal) ");
+        int userinput = input.nextInt();
+        facts.setUserinput(userinput);
+        boolean z = facts.SelectionLiving();
+        if (z==true){
+            System.out.printf("girl likes an expensive living style\n");
+            return true;
+        }else {
+            System.out.printf("girl likes a normal living style\n");
+            return false;
+        }
+
+    }
 }

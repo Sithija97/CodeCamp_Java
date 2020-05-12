@@ -9,7 +9,7 @@ public class Matcher {
         //compare-food
         if(boyfood==girlfood){
             System.out.println("food preference is matching\n");
-            perce+=50;
+            perce+=25;
         }else {
             System.out.println("food preference is not matching\n");
         }
@@ -20,7 +20,7 @@ public class Matcher {
         //compare-country
         if (boycountry==girlcountry){
             System.out.println("travelling perspective is matching\n");
-            perce+=50;
+            perce+=25;
         }else{
             System.out.println("travelling perspective is not matching\n");
         }
@@ -31,11 +31,19 @@ public class Matcher {
         //compare-hobby
         if (boycountry==girlcountry){
             System.out.println("hobby is matching\n");
-            perce+=50;
+            perce+=25;
         }else{
             System.out.println("hobby is not matching\n");
         }
 
+        boolean boyliving = BoyData.SelectionLiving();
+        boolean girlliving = GirlData.SelectionLiving();
+        if (boyliving==girlliving){
+            System.out.println("Their living style is matching\n");
+            perce+=25;
+        }else {
+            System.out.println("Their living style is not matching\n");
+        }
         //overall
         System.out.println("overall "+perce+"%"+" matching\n");
     }

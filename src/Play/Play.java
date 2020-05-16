@@ -1,5 +1,4 @@
 package Play;
-
 import java.util.Scanner;
 
 public class Play {

@@ -6,7 +6,8 @@ public class Dies {
     public static void main(String[] args) {
         Random rand = new Random();
         //int x = rand.nextInt(10);
-        System.out.println(rand.nextInt(10));
-        System.out.println(rand.nextInt(10));
+        for (;;){
+            System.out.println(rand.nextInt(10));
+        }
     }
 }

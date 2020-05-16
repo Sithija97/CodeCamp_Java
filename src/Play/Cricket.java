@@ -1,5 +1,6 @@
 package Play;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Cricket {
@@ -14,17 +15,21 @@ public class Cricket {
             System.out.println("value: "+i);
 
             //random value generating
+            Random rand = new Random();
+
 
             //getting totoal
-            total += i;
+
 
             //finishing part
-            if (i==1){
+            if (i!=rand.nextInt(10)){
+                total += i;
+            }else {
                 break;
             }
 
         }
         System.out.println("Game finished");
-        System.out.println("Your final score is: "+(total-1));
+        System.out.println("Your final score is: "+(total));
     }
 }

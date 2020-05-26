@@ -17,11 +17,6 @@ public class Cricket {
             //random value generating
             Random rand = new Random();
 
-
-            //getting totoal
-
-
-            //finishing part
             if (i!=rand.nextInt(10)){
                 total += i;
             }else {
@@ -30,6 +25,6 @@ public class Cricket {
 
         }
         System.out.println("Game finished");
-        System.out.println("Your final score is: "+(total));
+        System.out.println("Your final score is: "+(total ));
     }
 }
